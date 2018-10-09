@@ -1,0 +1,316 @@
+.main .fs {
+    height: 480px;
+    position: relative;
+    margin: 2px 0 0;
+}
+button {
+    cursor: pointer;
+}
+.main .fs .ad a {
+    display: block;
+    height: 480px;
+    width: 100%;
+    background: url("../img/bg.png") no-repeat top center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    zoom: 1;
+}
+.main .fs .fs_in {
+    height: 480px;
+    position: relative;
+}
+.main .fs .fs_nav {
+    height: 480px;
+    width: 190px;
+    float: left;
+}
+.main .fs .fs_nav ul{
+    padding: 10px 0;
+    height: 460px;
+    width: 190px;
+    background-color: #fefefe;
+    color: #636363;
+}
+.main .fs .fs_nav li {
+    padding-left: 18px;
+    height: 27px;
+    line-height: 27px;
+}
+.main .fs .fs_nav a {
+    font-size: 14px;
+    height: 27px;
+    line-height: 27px;
+    color: #626262;
+}
+.main .fs .fs_nav a:hover {
+    color: #e33333;
+}
+
+.main .fs .fs_nav li:hover {
+    background-color: #d9d9d9;
+}
+
+.main .fs .fs_nav span {
+    padding: 0 2px;
+    font-size: 12px;
+}
+.main .fs .fs_ad {
+    float: left;
+    width: 790px;
+    height: 480px;
+    margin-left: 10px;
+
+}
+.main .fs .fs_ad .fs_ad_1 {
+    height: 340px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main .fs .fs_ad .fs_ad_2 {
+    width: 390px;
+    height: 130px;
+    background: url("../img/l.jpg") no-repeat;
+    float: left;
+    display: inline-block;
+}
+.main .fs .fs_ad .fs_ad_3 {
+    width: 390px;
+    height: 130px;
+    background: url("../img/r.jpg") no-repeat;
+    float: right;
+    display: inline-block;
+ }
+.main .fs .fs_ad .fs_ad_1 .b_l ,
+.main .fs .fs_ad .fs_ad_1 .b_r {
+    width: 30px;
+    height: 60px;
+    background: rgba(0,0,0,0.2);
+    border: 0;
+    text-align: center;
+    line-height: 40px;
+}
+.main .fs .fs_ad .fs_ad_1 .b_l {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-top: -30px;
+}
+.main .fs .fs_ad .fs_ad_1 .b_r {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 50%;
+    margin-top: -30px;
+}
+
+.main .fs .fs_ad .fs_ad_1 i {
+    display: inline-block;
+    font-size: 30px;
+    color: hsla(0,0%,100%,.4);
+    text-align: center;
+    line-height: 60px;
+}
+.main .fs .gun {
+    width: 180px;
+    height: 20px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -90px;
+}
+.main .fs .gun li {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: left;
+    margin: 4px 5px;
+}
+.main .fs .gun li:hover ,
+.main .fs .gun .style_red {
+    background-color: #f10215;
+}
+
+.main .fs .fs_3 {
+    width: 190px;
+    height: 480px;
+    float: right;
+}
+
+.fs .fs_id {
+    height: 95px;
+    background-color: #fff;
+    padding: 20px 15px 0;
+}
+
+
+.fs .fs_id .hello {
+    height: 40px;
+    padding-left: 54px;
+    position: relative;
+}
+.fs .fs_id .hello a ,
+.fs .fs_id .hello p {
+    color: #747474;
+    font-size: 12px;
+
+}
+.fs .fs_id .hello a:hover {
+    color: #f10215;
+}
+.fs .fs_id .hello .logo {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.fs .fs_id .hello .logo img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+.fs .fs_id .newer a {
+    display: block;
+    width: 70px;
+    height: 20px;
+    border: 2px solid #f10215;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 14px;
+    color: #f10215;
+    margin-right: 6px;
+ }
+.fs .fs_id .newer a:hover {
+    background-color: #f10215;
+    color: #fff;
+}
+
+
+.fs .fs_3_ad {
+    height: 149px;
+    padding: 5px 15px 0;
+    border-top:1px solid #dfe0e1;
+    border-bottom:1px solid #dfe0e1;
+}
+.fs .fs_3_ad .tab_nav {
+    border-bottom: 1px solid #dfe0e1;
+    padding: 3px 0;
+    position: relative;
+}
+.fs .fs_3_ad .tab_nav a {
+    font-size: 12px;
+    color: #333;
+}
+.fs .fs_3_ad  a:hover {
+    color: #f10215;
+}
+.tab_new {
+    margin-right: 6px;
+}
+.new_first {
+    border-right: 1px solid #dfe0e1;
+    padding-right: 10px;
+}
+.tab_nav .more {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.tab_nav .line {
+    width: 28px;
+    height: 2px;
+    background-color: #F10215;
+    position: absolute;
+    bottom: -1px;
+}
+
+.tab_bd {
+    margin-top: 10px;
+}
+.tab_bd li {
+    height: 23px;
+    line-height: 23px;
+
+}
+.tab_bd a {
+    color: #666;
+    font-size: 12px;
+}
+.fs .fs_3_ser {
+    height: 209px;
+    width: 190px;
+    overflow: hidden;
+}
+.fs .fs_3_ser ul {
+    width: 192px;
+}
+.fs_3_ser li {
+    width: 47px;
+    height: 69px;
+    float: left;
+    border-right: 1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.fs .fs_3_ser a {
+    display: inline-block;
+    width: 100%;
+    height: 200%;
+}
+.fs .fs_3_ser a div {
+    width: 24px;
+    height: 24px;
+    margin: 15px auto 0;
+}
+.fs .fs_3_ser a .huafei{
+    background: url("../img/sprite_fs@1x.png") no-repeat -3px -89px;
+}
+.fs .fs_3_ser a .jiudian{
+    background: url("../img/sprite_fs@1x.png") no-repeat -45px -90px;
+}
+.fs .fs_3_ser a .plane{
+    background: url("../img/sprite_fs@1x.png") no-repeat -2px -45px;
+}
+.fs .fs_3_ser a .game{
+    background: url("../img/sprite_fs@1x.png") no-repeat -88px 0;
+}
+.fs .fs_3_ser a .co {
+    background: url("../img/sprite_fs@1x.png") no-repeat -88px -45px;
+}
+.fs .fs_3_ser a .oil {
+    background: url("../img/sprite_fs@1x.png") no-repeat 0 -1px;
+}
+.fs .fs_3_ser a .mo {
+    background: url("../img/sprite_fs@1x.png") no-repeat -44px -46px;
+}
+.fs .fs_3_ser a .tr {
+    background: url("../img/sprite_fs@1x.png") no-repeat -88px -89px;
+}
+.fs .fs_3_ser a .many {
+     background: url("../img/sprite_fs@1x.png") no-repeat -133px -1px;
+ }
+.fs .fs_3_ser a .invest {
+    background: url("../img/sprite_fs@1x.png") no-repeat -132px -45px;
+}
+.fs .fs_3_ser a .gift {
+    background: url("../img/sprite_fs@1x.png") no-repeat -132px -89px;
+}
+.fs .fs_3_ser a .white {
+    background: url("../img/sprite_fs@1x.png") no-repeat -44px -1px;
+}
+.fs .fs_3_ser a p {
+    font-size: 12px ;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+}
+.fs .fs_3_ser a:hover p{
+    color: #f10215;
+}
+
