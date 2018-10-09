@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: #F3F5F7;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?hrstq9');
+    src:  url('../fonts/icomoon.eot?hrstq9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?hrstq9') format('truetype'),
+    url('../fonts/icomoon.woff?hrstq9') format('woff'),
+    url('../fonts/icomoon.svg?hrstq9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+i,em,s {
+    font-family: "icomoon";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
